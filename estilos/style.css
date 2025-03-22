@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/*
+paleta de cores
+verde: #49a09d
+lilas: #5f2c82
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+main, html{
+    width: 100vw;
+    height: 100vh;
+    background-color: #151516;
+    position: relative;
+    overflow: hidden;
+}
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 20px;
+    width: 300px;
+    box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.644);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+}
+.img{
+    background-image: url(../imagens/pexels-slendyalex-3648850.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+}
+.login{
+    height: 410px;
+    padding: 15px;
+}
+.login h2{
+    text-align: center;
+    margin: 10px;
+}
+.login p{
+    margin-bottom: 10px;
+}
+.input{
+    background-color: #151516;
+    border-radius: 10px;
+    margin: 5px 0px;
+}
+.input span{
+    color: white;
+    font-size: 2em;
+   padding: 10px;
+}
+label{
+    display: none;
+}
+input[type="email"] , input[type="password"]{
+    border-radius: 10px;
+    height: 45px;
+    width: calc(100% - 60px);
+    transform: translateY(-8px);
+    text-indent: 5px;
+}
+input[type="submit"]{
+    display: block;
+    background-color: #151516;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+}
+form a{
+    display: block;
+    text-align: center;
+    background-color: white;
+    color: #151516;
+    text-decoration: none;
+    margin-top: 5px;
+    border: 2px solid #151516;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 1em;
+}

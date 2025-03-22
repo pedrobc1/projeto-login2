@@ -1,0 +1,35 @@
+@charset "UTF-8";
+@media screen and (min-width: 768px) {
+    section{
+        width: 600px;
+        height: 400px;
+    }
+    .login{
+        float: right;
+        width: 70%;
+        height: 100%;
+    }
+    .img{
+        float: left;
+        width: 30%;
+        height: 100%;
+        border-radius: 10px 0px 0px 10px;
+    }
+}
+@media  screen and (min-width: 992px) {
+    section{
+        width: 900px;
+        height: 370px;
+    }
+    .login{
+        float: left;
+        width: 60%;
+        height: 100%;
+    }
+    .img{
+        float: right;
+        width: 40%;
+        height: 100%;
+        border-radius: 0px 10px 10px 0px;
+    }
+}
